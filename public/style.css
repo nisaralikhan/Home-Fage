@@ -1,0 +1,272 @@
+
+
+/*.first {
+    width: 1300px ;
+    height: 38px;
+    background-color: rgba(0, 0, 255, 0.767);
+    text-align:center;color:white;
+    position: relative; position: fixed;
+    
+}
+
+    
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }*/
+  main-content{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px;
+} 
+*  
+{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+.menu-bar
+{
+    background: whitesmoke;
+    text-align: center;
+}
+
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color:fuchsia;
+}
+
+.menu-bar ul li
+{
+width: 110px;
+margin: 5px;
+padding: 5px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color:black;
+}
+.active,.menu-bar ul li:hover
+ {
+     background-color: blue;
+     border-radius: 25px;
+     box-sizing: inherit;
+}
+
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover.sub-menu-1
+{
+    display: block;
+    position: absolutea;
+    background:rgb(0,100,0);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.menu-bar ul li:hover.sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover.sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover.sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover.sub-menu-1 ul li a:hover
+{
+    color: green;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover  .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background:whitesmoke;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover  .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+/*.menu-bar ul li:hover */ .sub-menu-1 ul li a:hover
+{
+    color: slateblue;
+}
+.fa-angle-right
+{
+    float: right;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -42px;
+    margin-left: 142px;
+    background:whitesmoke;
+}
+.img
+{
+    animation-play-state: inherit;
+}
+.first-1
+{margin-bottom: 15px;
+    width: 1000px;
+    height: 30px;
+    background-color: rgba(107, 76, 219, 0.89);
+    text-align: center;
+    color-adjust: (green);
+}
+.first-1 p
+{
+   
+    padding: 5px;
+}
+
+
+.found-1234{
+    margin-bottom: 1px;
+    width: 1350px;
+    height: 330px;
+    background-color: blue;
+    color-adjust: 0;
+}
+.found-1234 ul
+{
+    padding-inline-start: 5px;
+}
+.container 
+{
+    background-color: #f7f8fa;
+    width: 950px;
+    height: 380px;
+    text-align: center;
+    padding-bottom: initial;
+}
+.section-title
+{
+    text-emphasis: none;
+}
+body
+{
+    margin: 0px;
+}
+.nive-1
+{
+    width: 1350px;
+    height: 250px;
+    margin-bottom: 35px;
+    float: left;
+    text-indent: 100px;
+    padding: 50px;
+    box-shadow: 11px;
+}
+div.nive-32
+{ 
+  max-width: 70%;
+  margin-top:auto; 
+  text-align: center; 
+  box-shadow: 11px;
+  white-space: pre-line;
+}
+
+    .container.pb-30
+{
+background-color: white;
+padding: 50px;
+text-indent: 5px;
+resize: horizontal;
+}
+* 
+{
+box-sizing: border-box;
+}
+.body {
+    margin: 0;
+    font-family: Arial;   
+  }
+  .column {
+    float: left;
+    width: 15%;
+    height: 7px;
+    padding: 1px;
+    
+    align-items: center;
+    }
+  .column img 
+  {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  .column img:hover 
+  {
+    opacity: 1;
+  }
+
+    .img-control
+  {
+    background-color: white;
+    margin-left: 280px;
+    text-align: center;
+  }
+  .row.border-bottom-black
+  {
+      
+      background-color: dimgrey;
+  }
